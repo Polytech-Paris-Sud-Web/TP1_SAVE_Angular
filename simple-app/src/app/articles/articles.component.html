@@ -1,0 +1,7 @@
+<!--<li *ngFor="let article of this.articles()">-->
+<!--  <app-article [title]="article.title" [customContent]="article.content"></app-article>-->
+<!--</li>-->
+<input (input)="searchArticles($event)" (ngModelChange)="searchArticles" type="text" placeholder="Recherche" class="searchbar">
+<app-article *ngFor="let article of this.articles" [article]="article" (deletedArticle)="delete($event)">
+</app-article>
+

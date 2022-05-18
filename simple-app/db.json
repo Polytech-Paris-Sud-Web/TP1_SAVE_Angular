@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "title": "Angular component",
+      "content": "Angular component looks awesome!",
+      "author": "Orangefire",
+      "id": 2
+    },
+    {
+      "title": "Fake Title",
+      "content": "aera",
+      "author": "earetagf",
+      "id": 3
+    }
+  ]
+}
