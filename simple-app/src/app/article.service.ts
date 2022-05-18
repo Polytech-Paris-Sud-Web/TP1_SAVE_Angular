@@ -8,22 +8,7 @@ import { Article} from './models/article';
   providedIn: 'root'
 })
 export class ArticleService {
-  //
-  // public getArticles() : Article[] {
-  //   return [{
-  //     title: 'My First Article',
-  //     content: 'Hello World',
-  //     author: 'Orangefire'
-  //   }, {
-  //     title: 'Angular component',
-  //     content: 'Angular component looks awesome!',
-  //     author: 'Orangefire'
-  //   }, {
-  //     title: 'Angular service',
-  //     content: 'I read something about angular service, i will try it soon',
-  //     author: 'Orangefire'
-  //   }];
-  // }
+
   constructor(private http : HttpClient) {
   }
 
@@ -49,6 +34,10 @@ export class ArticleService {
 
   public search(mot : string): Observable<Article[]> {
     return this.http.get<Article[]>(`http://localhost:3000/articles?q=${mot}`);
+  }
+
+  public lastTenArticles(): Observable<Article[]> {
+    return this.http.get<Article[]>(`http://localhost:3000/articles?_sort=id&_order=desc&_limit=10`);
   }
 
 }

@@ -25,6 +25,10 @@ export class ArticleComponent implements OnInit {
     this.route.navigate(['/article', this.article.id]);
   }
 
+  author(){
+    this.route.navigate(['/author', this.article.author]);
+  }
+
   ngOnInit(): void {
   }
 }

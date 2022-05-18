@@ -1,16 +1,103 @@
 {
   "articles": [
     {
-      "title": "Angular component",
-      "content": "Angular component looks awesome!",
-      "author": "Orangefire",
+      "title": "Fake Title",
+      "content": "aera",
+      "author": "Fake Author",
+      "id": 3
+    },
+    {
+      "title": "un article",
+      "content": "c'est un article moche qui ne va pas servir à grand chose mais en vrai on est content ",
+      "author": "bob le bricoleur",
+      "id": 4
+    },
+    {
+      "title": "Bateau",
+      "content": "Un bateau est un moyen de transport capable de flotter sur l'eau et de s'y déplacer, dirigé par ses occupants. Il répond aux besoins du transport maritime ou fluvial, et permet diverses activités telles que le transport de personnes ou de marchandises, la guerre sur mer, la pêche, la plaisance, ou d'autres services tels que la sécurité des autres bateaux.\n\nLes bateaux ont accompagné l'Homme dans son évolution. Indispensables lors des grandes guerres et des conquêtes, et aussi pour la subsistance par la pêche, ils ont été transformés et font maintenant partie intégrante des systèmes commerciaux et militaires modernes : plusieurs millions de bateaux de pêche sont utilisés par quelques dizaines de millions de pêcheurs de par le monde et les guerres modernes font appel à des navires hautement sophistiqués pour transporter et soutenir les forces à terre ; près de 35 000 navires de commerce ont transporté 7,4 milliards de tonnes de marchandises en 20071 (voir détail de ces chiffres plus bas).\n\nLes bateaux ont également pris part aux grandes explorations, aux découvertes scientifiques et à la propagation des grandes cultures : les navigateurs chinois comme Zheng He ont permis de partager des inventions comme la boussole ou la poudre à canon, tandis que les expéditions en Amérique ont diffusé la culture européenne sur ce continent. Si les bateaux ont été utilisés pour les colonisations et le commerce triangulaire, ils ont aussi servi et servent toujours à la recherche scientifique et au rayonnement culturel des pays.\n\nComme l’a démontré Thor Heyerdahl avec le Kon-Tiki, il est possible de faire de longues traversées avec un simple radeau de rondins.",
+      "author": "Wikipedia",
+      "id": 5
+    },
+    {
+      "title": "Homme",
+      "content": "Un homme est un être humain de sexe masculin et d'âge adulte. Avant la puberté, au stade infantile, on parle de garçon. Il arrive cependant que le mot s'utilise indépendamment de l’âge.\n\nConformément à son étymologie latine, le terme est aussi employé pour désigner l’espèce Homo sapiens de manière générale, parfois distingué par l'emploi d'une majuscule (« l'Homme »). Ce concept est souvent placé en opposition ou complémentaire de celui de femme.",
+      "author": "Wikipedia",
+      "id": 6
+    },
+    {
+      "title": "Avion",
+      "content": "Un avion1 est un aérodyne (un aéronef plus lourd que l'air), entraîné par un propulseurN 1, dont la portance aérodynamique est obtenue par des surfaces fixes. Lorsque la portance est obtenue (à l'arrêt ou en mouvement) par des surfaces en rotation, l'appareil est alors dit à « voilure tournante » (hélicoptère, autogire, girodyne).\n\nUn avion équipé d'un dispositif lui permettant de décoller et de se poser sur l'eau (amerrir) est un hydravion. D'autres accessoires permettent l'atterrissage et le décollage sur des surfaces enneigées comme des skis situés sous les roues de l'avion.\n\nCelui qui le dirige est appelé pilote ou aviateur.",
+      "author": "Wikipedia",
+      "id": 7
+    },
+    {
+      "title": "Je suis un Homme ",
+      "content": "Je suis un homme comme vous, comme la celebre chanson de disney pouvait le dire.",
+      "author": "Julien",
+      "id": 8
+    },
+    {
+      "title": "Rafales de Québec",
+      "content": "Les Rafales de Québec sont une franchise de hockey sur glace ayant évolué dans la Ligue internationale de hockey de 1996 à 1998.",
+      "author": "Wikipedia",
+      "id": 9
+    },
+    {
+      "title": "Comment nettoyer de l'urine sur un canapé",
+      "content": "Que ce soit l’odeur ou la tache humide qui a attiré votre attention, vous serez probablement angoissé par l’idée d’éliminer l’urine d’un canapé. Heureusement, vous avez la possibilité d’enlever facilement la tache et l’odeur à l’aide de certains ingrédients de base que vous avez probablement déjà à la maison. Pour éliminer l’urine fraiche, vous pouvez faire usage d’un mélange de bicarbonate de soude et de vinaigre. Par contre, si elle a séché ou s’est profondément infiltrée dans le canapé, vous devez utiliser un mélange d’eau oxygénée, de bicarbonate de soude et de liquide vaisselle. S’il s’agit de l’urine d’un chien, d’un chat ou d’un autre animal ou si le canapé est en microfibre, la meilleure option serait d’utiliser un nettoyant enzymatique. Ce produit empêchera non seulement l’animal d’uriner à nouveau au même endroit, mais il s’évaporera également vite et sera moins susceptible de tacher la microfibre.",
+      "author": "Wikihow",
+      "id": 10
+    },
+    {
+      "title": "Comment passer la serpillère",
+      "content": "Vous pouvez passer le balai ou l'aspirateur pour que votre plancher reste assez propre, mais de temps en temps, il faut passer un coup de serpillère pour éliminer la saleté tenace. Si vous ne l'avez jamais fait, cela vous semble peut-être compliqué, mais en réalité, c'est très simple !",
+      "author": "Wikihow",
+      "id": 11
+    },
+    {
+      "title": "Comment éliminer une tâche de henné",
+      "content": "Le henné est un colorant d’origine végétale et il est souvent utilisé pour dessiner de beaux tatouages temporaires. Parfois, on l’utilise également pour faire des teintures capillaires. Bien que le henné s’estompe tout naturellement au fil du temps, il laisse tout de même des taches que vous devez nettoyer au plus vite. Fort heureusement, lorsque ce produit laisse une salissure sur votre peau ou votre tissu, vous pouvez vous en débarrasser facilement en vous servant de quelques produits ménagers habituels.",
+      "author": "Wikihow",
+      "id": 12
+    },
+    {
+      "title": "En Russie, des bureaux militaires attaqués au cocktail Molotov",
+      "content": "En pleine nuit, le 4 mai, dans le centre de Nijnevartovsk, ville d’un peu moins de 300 000 habitants située dans le nord de la Sibérie, un homme apparemment jeune avance d’un pas déterminé. Le visage dissimulé sous une capuche et un masque, un sac plastique à la main, il se dirige vers le 78, rue de la Paix. Méthodiquement, il en sort sept bouteilles en verre et les aligne sur un coin de trottoir. Puis, parfaitement calme, il allume un à un ses cocktails Molotov et les propulse sur la porte et les fenêtres du bureau d’enregistrement militaire qui se trouve là.\n\nPas le moindre mot n’est prononcé, et il est impossible de remonter la trace de la vidéo, apparue le lendemain sur les réseaux sociaux. Rien ne permet d’identifier l’homme aux cocktails Molotov ou le complice qui le filme. La police y est-elle parvenue ? Le 13 mai, elle a signalé avoir arrêté deux suspects, placés en détention provisoire pour deux mois. Mais contrairement aux arrestations habituelles de « saboteurs » et d’« espions », très mises en scène à grand renfort de symboles nazis, aucun détail n’a été donné.\n\nLe cas de Nijnevartovsk n’est pas isolé. A Tcherepovets, dans la région de Vologda (nord-ouest), le même scénario s’est produit, le 12 mai, avec des assaillants un peu moins sûrs d’eux, qui ont dû s’y reprendre à deux fois pour faire exploser leurs cocktails Molotov. La façade du voenkomat (le bureau militaire) a néanmoins bien pris feu.",
+      "author": "Le Monde",
+      "id": 13
+    },
+    {
+      "title": "Irlande du Nord : le gouvernement britannique menace Bruxelles",
+      "content": "Après des semaines de supputations et de rumeurs, le gouvernement Johnson passe aux menaces explicites. Liz Truss, la ministre britannique des affaires étrangères, a confirmé à la Chambre des communes, mardi 17 mai, qu’elle déposerait formellement « dans les prochaines semaines » un projet de loi remettant en cause unilatéralement des pans entiers du fameux « protocole ». Cette partie cruciale du traité du Brexit avec l’Union européenne (UE) instaure une frontière douanière entre l’Irlande du Nord et le reste du Royaume-Uni, afin de protéger l’intégrité du marché intérieur européen tout en évitant le retour d’une frontière physique sur l’île d’Irlande.\n\n« Notre premier choix est une solution négociée [avec Bruxelles], mais les discussions durent depuis dix-huit mois. Nous ne pouvons plus attendre, la situation en Irlande du Nord est sérieuse. Le protocole ne fonctionne pas, il est rejeté par la communauté loyaliste [fidèle au rattachement au Royaume-Uni], il a fragilisé le traité de paix du Vendredi saint [ayant mis fin, en 1998, à la guerre civile entre loyalistes et nationalistes, en faveur d’une réunification de l’île]. Et il aggrave la crise du coût de la vie en Irlande du Nord », a assuré Mme Truss aux Communes.",
+      "author": "Le Monde",
+      "id": 14
+    }
+  ],
+  "authors": [
+    {
+      "name": "bob le bricoleur",
+      "biography": "bob est un bricoleur",
+      "id": 1
+    },
+    {
+      "name": "earetagf",
+      "biography": "c'est un vrai gars",
       "id": 2
     },
     {
-      "title": "Fake Title",
-      "content": "aera",
-      "author": "earetagf",
+      "name": "Wikipedia",
+      "biography": "c'est un super site en vrai, aller le voir c'est ouf",
       "id": 3
+    },
+    {
+      "name": "Wikihow",
+      "biography": "c'est un super site en vrai, aller le voir c'est ouf, il vous apprend à faire des choses de la vie courante",
+      "id": 4
+    },
+    {
+      "name": "Le Monde",
+      "biography": "c'est un site d'actualité magnifique",
+      "id": 5
     }
   ]
 }

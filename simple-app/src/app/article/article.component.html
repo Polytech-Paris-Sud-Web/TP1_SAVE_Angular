@@ -1,9 +1,10 @@
-<div class="article">
-  <h3> {{this.article.title}} </h3>
-  <p> {{this.article.content}} </p>
-  <p>{{this.article.author}}</p>
-  <button (click)="details()">view more</button>
-  <button (click)="delete()">Delete Article</button>
+<div class="container">
+  <h3 class="display-4"> {{this.article.title}} </h3>
+  <p class="text-left"> {{this.article.content}} </p>
+  <p class="text-left">{{this.article.author}}</p>
+  <button class="btn btn-dark" (click)="details()">view more</button>
+  <button class="btn btn-dark" (click)="delete()">Delete Article</button>
+  <button class="btn btn-dark" (click)="author()">view author</button>
 </div>
 
 
